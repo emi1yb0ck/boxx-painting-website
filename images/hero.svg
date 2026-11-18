@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 700">
+<defs>
+  <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5aa0e6"/><stop offset="1" stop-color="#cfe6fa"/></linearGradient>
+  <pattern id="tile" width="22" height="16" patternUnits="userSpaceOnUse"><rect width="22" height="16" fill="#c9653f"/><path d="M0 16 Q11 4 22 16" fill="#e07c52"/><path d="M0 16 Q11 4 22 16" fill="none" stroke="#9e4a2c" stroke-width="1.5"/></pattern>
+  <pattern id="pavers" width="30" height="16" patternUnits="userSpaceOnUse"><rect width="30" height="16" fill="#c9a37a"/><path d="M0 0H30M0 8H30M15 0V8M0 8V16M30 8V16" stroke="#a9845c" stroke-width="1.5"/></pattern>
+  <symbol id="palm" viewBox="0 0 200 400"><path d="M100 400 C96 300 92 200 104 90" stroke="#8a6b4a" stroke-width="12" fill="none"/><path d="M100 400 C96 300 92 200 104 90" stroke="#6e5238" stroke-width="12" stroke-dasharray="3 14" fill="none"/><g fill="#2f7d3a"><path d="M104 90 C70 60 30 70 0 110 C40 85 70 85 104 95Z"/><path d="M104 90 C140 55 180 65 200 110 C165 85 135 85 104 95Z"/><path d="M104 90 C90 40 60 20 30 25 C65 40 85 60 102 92Z"/><path d="M104 90 C120 40 150 18 185 22 C150 40 125 62 106 92Z"/><path d="M104 90 C80 100 55 130 50 170 C70 135 85 115 106 96Z"/><path d="M104 90 C130 100 150 130 158 170 C140 135 125 115 102 96Z"/><path d="M104 90 C104 50 110 20 118 0 C112 35 110 60 106 92Z" fill="#3c9447"/></g><circle cx="100" cy="98" r="7" fill="#a0782f"/><circle cx="110" cy="100" r="6" fill="#a0782f"/></symbol>
+</defs>
+<rect width="1200" height="700" fill="url(#sky)"/>
+<g fill="#fff" opacity=".9"><ellipse cx="220" cy="110" rx="90" ry="26"/><ellipse cx="290" cy="95" rx="60" ry="30"/><ellipse cx="900" cy="80" rx="110" ry="28"/><ellipse cx="980" cy="70" rx="60" ry="26"/></g>
+<rect y="560" width="1200" height="140" fill="#5f9e45"/>
+<!-- house -->
+<polygon points="250,260 420,190 590,260" fill="url(#tile)"/>
+<rect x="270" y="258" width="300" height="160" fill="#fbfaf6"/>
+<polygon points="200,400 370,345 940,345 1080,400" fill="url(#tile)"/>
+<rect x="230" y="398" width="820" height="170" fill="#f6f4ee"/>
+<polygon points="560,250 760,175 960,250" fill="url(#tile)"/>
+<rect x="580" y="248" width="360" height="100" fill="#fbfaf6"/>
+<!-- arched entry -->
+<path d="M440 568 V470 A55 55 0 0 1 550 470 V568Z" fill="#e7e2d6"/>
+<path d="M455 568 V478 A40 40 0 0 1 535 478 V568Z" fill="#fdfdfb" stroke="#cfc8b6" stroke-width="3"/>
+<line x1="495" y1="440" x2="495" y2="568" stroke="#cfc8b6" stroke-width="3"/>
+<!-- windows -->
+<g fill="#7fa9c9" stroke="#fff" stroke-width="5">
+  <path d="M370 360 V300 A30 30 0 0 1 430 300 V360Z"/>
+  <rect x="280" y="440" width="110" height="80"/>
+  <rect x="640" y="275" width="90" height="55"/><rect x="800" y="275" width="90" height="55"/>
+</g>
+<g fill="#b7c9b2"><rect x="270" y="440" width="10" height="80"/><rect x="390" y="440" width="10" height="80"/></g>
+<!-- garage -->
+<rect x="640" y="440" width="320" height="128" fill="#fff" stroke="#ddd6c6" stroke-width="4"/>
+<g stroke="#e5dfd1" stroke-width="3"><path d="M640 472H960M640 504H960M640 536H960"/></g>
+<!-- driveway -->
+<polygon points="640,568 960,568 1100,700 560,700" fill="url(#pavers)"/>
+<polygon points="470,568 520,568 530,700 440,700" fill="url(#pavers)"/>
+<!-- shrubs / crotons -->
+<g><ellipse cx="300" cy="566" rx="80" ry="22" fill="#2e6b2f"/><ellipse cx="590" cy="566" rx="45" ry="18" fill="#2e6b2f"/>
+<g fill="#e05a2b"><ellipse cx="270" cy="556" rx="14" ry="9"/><ellipse cx="320" cy="552" rx="12" ry="8"/><ellipse cx="600" cy="556" rx="10" ry="7"/></g>
+<g fill="#f2b632"><ellipse cx="295" cy="550" rx="10" ry="7"/><ellipse cx="345" cy="560" rx="9" ry="6"/><ellipse cx="580" cy="552" rx="8" ry="6"/></g></g>
+<!-- palms -->
+<use href="#palm" xlink:href="#palm" x="100" y="190" width="200" height="420"/>
+<use href="#palm" xlink:href="#palm" x="170" y="240" width="160" height="360"/>
+<use href="#palm" xlink:href="#palm" x="960" y="160" width="220" height="460"/>
+</svg>

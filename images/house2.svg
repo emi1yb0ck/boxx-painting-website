@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 900 800">
+<defs>
+  <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3f8ae0"/><stop offset="1" stop-color="#bfdcf7"/></linearGradient>
+  <pattern id="siding" width="10" height="18" patternUnits="userSpaceOnUse"><rect width="10" height="18" fill="#a9b8c4"/><rect y="15" width="10" height="3" fill="#94a4b1"/></pattern>
+  <symbol id="palm" viewBox="0 0 200 400"><path d="M100 400 C96 300 92 200 104 90" stroke="#8a6b4a" stroke-width="12" fill="none"/><path d="M100 400 C96 300 92 200 104 90" stroke="#6e5238" stroke-width="12" stroke-dasharray="3 14" fill="none"/><g fill="#2f7d3a"><path d="M104 90 C70 60 30 70 0 110 C40 85 70 85 104 95Z"/><path d="M104 90 C140 55 180 65 200 110 C165 85 135 85 104 95Z"/><path d="M104 90 C90 40 60 20 30 25 C65 40 85 60 102 92Z"/><path d="M104 90 C120 40 150 18 185 22 C150 40 125 62 106 92Z"/><path d="M104 90 C80 100 55 130 50 170 C70 135 85 115 106 96Z"/><path d="M104 90 C130 100 150 130 158 170 C140 135 125 115 102 96Z"/><path d="M104 90 C104 50 110 20 118 0 C112 35 110 60 106 92Z" fill="#3c9447"/></g><circle cx="100" cy="98" r="7" fill="#a0782f"/><circle cx="110" cy="100" r="6" fill="#a0782f"/></symbol>
+</defs>
+<rect width="900" height="800" fill="url(#sky)"/>
+<g fill="#fff" opacity=".9"><ellipse cx="160" cy="120" rx="90" ry="28"/><ellipse cx="690" cy="90" rx="100" ry="30"/></g>
+<rect y="610" width="900" height="190" fill="#8e9195"/>
+<polygon points="0,640 210,640 160,800 0,800" fill="#5f9e45"/>
+<polygon points="680,640 900,640 900,800 740,800" fill="#5f9e45"/>
+<!-- house -->
+<polygon points="170,190 450,110 730,190" fill="#5b616a"/>
+<rect x="200" y="190" width="500" height="430" fill="url(#siding)"/>
+<rect x="200" y="380" width="500" height="18" fill="#fff"/>
+<!-- balcony -->
+<rect x="250" y="210" width="400" height="12" fill="#fff"/>
+<g fill="#fff"><rect x="260" y="222" width="16" height="158"/><rect x="440" y="222" width="16" height="158"/><rect x="624" y="222" width="16" height="158"/></g>
+<rect x="260" y="320" width="380" height="8" fill="#fff"/>
+<g stroke="#fff" stroke-width="4"><path d="M290 328V380M320 328V380M350 328V380M380 328V380M410 328V380M480 328V380M510 328V380M540 328V380M570 328V380M600 328V380"/></g>
+<rect x="320" y="240" width="90" height="80" fill="#6f8aa3" stroke="#fff" stroke-width="5"/>
+<rect x="490" y="240" width="90" height="80" fill="#6f8aa3" stroke="#fff" stroke-width="5"/>
+<!-- garage + door -->
+<rect x="240" y="450" width="200" height="170" fill="#fff"/>
+<g stroke="#e3e3e3" stroke-width="3"><path d="M240 492H440M240 534H440M240 576H440"/></g>
+<rect x="520" y="460" width="90" height="160" fill="#fff"/><rect x="535" y="475" width="60" height="70" fill="#7f98ae"/>
+<circle cx="225" cy="440" r="8" fill="#f6e7a0"/><circle cx="635" cy="440" r="8" fill="#f6e7a0"/>
+<!-- mulch beds -->
+<ellipse cx="480" cy="625" rx="70" ry="16" fill="#9e3a24"/><ellipse cx="700" cy="625" rx="60" ry="16" fill="#9e3a24"/>
+<ellipse cx="700" cy="612" rx="40" ry="16" fill="#2e6b2f"/>
+<use href="#palm" xlink:href="#palm" x="560" y="250" width="200" height="390"/>
+<use href="#palm" xlink:href="#palm" x="40" y="280" width="170" height="360"/>
+</svg>
