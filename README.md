@@ -1,4 +1,4 @@
-# Boxx Painting & Pressure Cleaning, Inc. — Website
+# Boxx Painting & Pressure Cleaning, LLC — Website
 
 A static website built with plain HTML, CSS and JavaScript. It has no build step.
 
